@@ -6,6 +6,8 @@ import { getUserId, isUserId } from "../services/isUserId";
 import { store } from "../store";
 import { ContentLog } from "./ContentLog";
 import { TwitchChatContentLog } from "./TwitchChatLogContainer";
+import { Emote, LogMessage, UserLogResponse } from "../types/log";
+import runes from "runes";
 
 const LogContainer = styled.div`
     position: relative;
